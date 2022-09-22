@@ -1,0 +1,35 @@
+@import "./header.css";
+@import "./section.css";
+@import "./main.css";
+@import "./article.css";
+@import "./footer.css";
+
+* {
+  font-family: 'Poppins', 'sans-serif';
+  list-style: none;
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+input,
+button,
+a,
+ul,
+li,
+select {
+  outline: none;
+  text-decoration: none;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 30px;
+  padding: 12px 0px;
+  color: #290742;
+}
+
+p {
+  font-family: 'Roboto';
+}

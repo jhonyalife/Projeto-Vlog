@@ -1,0 +1,10 @@
+footer {
+  border-top: 6px solid #4FFF4B;
+  background-color: #290742;
+}
+
+.footer h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 1.2em;
+}

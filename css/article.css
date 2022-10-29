@@ -1,16 +1,14 @@
 article {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding-bottom: 3rem;
 }
 
 .grid-caixa {
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 1rem;
   padding: 2rem 0;
-  width: 70%;
+  width: 1250px;
 }
 
 .card img {

@@ -1,3 +1,5 @@
+/* Section */
+
 section {
   background-color: #290742;
   border-bottom: 5px solid #4FFF4B;
@@ -8,8 +10,7 @@ section {
 }
 
 .container-info {
-  width: 70%;
-  padding: 1.2rem 0;
+  width: 1250px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 20px;
@@ -45,16 +46,10 @@ section {
 }
 
 .img-programacao img{
-  max-width: 100%;
+  width: 100%;
   border-radius: 10px;
   transition: .4s;
 }
-
-.img-programacao img:hover {
-  transform: rotateZ(1deg);
-  box-shadow: 0 0 .5rem #6c1da59c;
-}
-
 
 @media (max-width:1200px) {
   .container-info {
